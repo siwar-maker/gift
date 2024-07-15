@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="zina.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Formulaire</h1></header>
+    <section>
+      <p>
+        Now please fill this form page and if it's wrong You'll never pass to
+        the other page
+      </p>
+      <form action="page2.html" method="post">
+        Your full Name : <input type="text" maxlength="17" required id="hn" />
+        <br />
+        Your Gf Name (only first name) :
+        <input type="text" maxlength="6" required id="mn" /><br />
+        Your age :<input type="number" required id="ha" /><br />
+        Your gf age : <input type="number" required id="ma" /><br />
+        For how days long we are together ? :
+        <input type="number" required id="rsd" /> (you can use an application to
+        know the answer) <br />
+        What is our anniversary date ? :
+        <select name="select" id="slct">
+          <option value="...">...</option>
+          <option value="21">21/11/2021</option>
+          <option value="22">22/11/2021</option>
+          <option value="21">23/11/2021</option>
+        </select>
+        When you finish all these click in this button and see if you are
+        correct or no hihihi. <br />
+        <input type="button" value="click here" onclick="return test()" />
+      </form>
+    </section>
+    <script src="jv.js"></script>
+  </body>
+</html>

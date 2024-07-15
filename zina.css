@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #ff6a88, #ffb199);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+
+  section {
+    background: linear-gradient(45deg, #c3cfe2, #e2e6ef);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  section h5 {
+    font-size: 1.8em;
+    color: #333;
+  }
+
+  section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  input[type="button"] {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+    padding: 15px 30px;
+    transition: background 0.3s ease;
+  }
+  
+  input[type="button"]:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+  }
+#parg{
+    font-size: 20px;
+}
+
+
